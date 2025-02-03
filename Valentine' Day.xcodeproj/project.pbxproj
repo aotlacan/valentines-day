@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		647D74672D518C4000B553A4 /* main.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = main.html; sourceTree = "<group>"; };
+		647D74672D518C4000B553A4 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		647D74682D518C7200B553A4 /* styles.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
 		647D74692D518C9200B553A4 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -16,7 +16,7 @@
 		647D74602D518C3700B553A4 = {
 			isa = PBXGroup;
 			children = (
-				647D74672D518C4000B553A4 /* main.html */,
+				647D74672D518C4000B553A4 /* index.html */,
 				647D74682D518C7200B553A4 /* styles.css */,
 				647D74692D518C9200B553A4 /* script.js */,
 			);
