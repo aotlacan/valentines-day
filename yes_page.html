@@ -10,16 +10,26 @@
     <div class="container">
         <h1 class="header_text">Knew you would say yes!</h1>
         <div class="gif_container">
-            <img src="https://media.tenor.com/pjU0zhM2y-sAAAAM/dog-doggo.gif">
+            <img id="yes-image" src="https://media.tenor.com/pjU0zhM2y-sAAAAM/dog-doggo.gif" alt="Happy Dog Gif">
         </div>
     </div>
 
-<iframe src="audio/how-deep-is-your-love.mp3" allow="autoplay" style="display:none" id="iframeAudio">
-</iframe> 
+    <iframe src="audio/how-deep-is-your-love.mp3" allow="autoplay" style="display:none" id="iframeAudio"></iframe>
     
     <audio autoplay>
-        <source src='/audio/how-deep-is-your-love.mp3' type="audio/mpeg">
+        <source src="audio/how-deep-is-your-love.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
+
+    <script>
+        // Play an additional song when clicking the image
+        const yesImage = document.getElementById('yes-image');
+        if (yesImage) {
+            yesImage.addEventListener('click', () => {
+                const imageAudio = new Audio('audio/how-deep-is-your-love.mp3'); // Replace with your audio file
+                imageAudio.play().catch(e => console.log('Image audio playback failed:', e));
+            });
+        }
+    </script>
 </body>
 </html>

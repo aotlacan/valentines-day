@@ -59,6 +59,15 @@ function getRandomPosition() {
 if (window.location.pathname.includes('yes_page.html')) {
     const yesAudio = new Audio('audio/how-deep-is-your-love.mp3');
     yesAudio.play().catch(e => console.log('Playback failed:', e));
+
+    // Add event listener to play a song when clicking the image
+    const yesImage = document.getElementById('yes-image');
+    if (yesImage) {
+        yesImage.addEventListener('click', () => {
+            const imageAudio = new Audio('audio/celebration.mp3'); // Replace with your audio file
+            imageAudio.play().catch(e => console.log('Image audio playback failed:', e));
+        });
+    }
 }
 
 document.querySelector('.no-button')?.addEventListener('click', handleNoClick);
