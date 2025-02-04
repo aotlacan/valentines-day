@@ -10,6 +10,8 @@
 		647D74672D518C4000B553A4 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		647D74682D518C7200B553A4 /* styles.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
 		647D74692D518C9200B553A4 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		647D746A2D519AE800B553A4 /* yes_page.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = yes_page.html; sourceTree = "<group>"; };
+		647D746B2D519AE800B553A4 /* yes_style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = yes_style.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -17,6 +19,8 @@
 			isa = PBXGroup;
 			children = (
 				647D74672D518C4000B553A4 /* index.html */,
+				647D746A2D519AE800B553A4 /* yes_page.html */,
+				647D746B2D519AE800B553A4 /* yes_style.css */,
 				647D74682D518C7200B553A4 /* styles.css */,
 				647D74692D518C9200B553A4 /* script.js */,
 			);
