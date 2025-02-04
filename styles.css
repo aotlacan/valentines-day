@@ -75,3 +75,17 @@ body {
         -2px  2px 0 white,
          2px  2px 0 white;
 }
+
+h1 {
+    color: red; /* Adjust the fill color as needed */
+    font-size: 3rem; /* Adjust size as needed */
+    font-weight: bold;
+    text-align: center;
+
+    /* White outline effect */
+    text-shadow:
+        -2px -2px 0 white,
+         2px -2px 0 white,
+        -2px  2px 0 white,
+         2px  2px 0 white;
+}
